@@ -11,6 +11,9 @@ import Foundation
 enum API {
     static var kBaseURL: String = "https://jsonplaceholder.typicode.com/"
     static var kPosts: String = "posts"
+    static var kComments: String = "comments"
 }
 
-
+enum Segues {
+    static var kShowPostDetail = "segueShowPostDetail"
+}

@@ -1,20 +1,22 @@
 //
-//  PostsVC.swift
+//  CommentsVC.swift
 //  DoubleYolk_JourneyDigital_Test
 //
 //  Created by DoubleYolk on 03/12/21.
-//
+
+
 
 import UIKit
 
-class PostsVC: BaseVC {
+class CommentsVC: BaseVC {
 
     // MARK: - Outlets
     @IBOutlet weak var searchBar: UISearchBar!
-    @IBOutlet weak var tblPosts: UITableView!
+    @IBOutlet weak var tblComments: UITableView!
     
     // MARK: - Properties
-    private(set) var postViewModel: PostViewModel = PostViewModel()
+    private(set) var commentsViewModel: CommentsViewModel?
+    var postModle: Post?
     var isSearching:Bool?
     
     // MARK: - View Life Cycle
@@ -25,44 +27,29 @@ class PostsVC: BaseVC {
     }
     
     
-    /// This method will - register the PostsTableViewCell - tableview cell
-    ///  And make the requestGetPostAPICall - API call method
+    /// This method will - register the CommentsTableViewCell - tableview cell
+    ///  And make the callGetComments - API call metho
     private func setupConfigOnViewDidload() {
-        tblPosts.register(cellType: PostsTableViewCell.self)
-        requestGetPostAPICall()
-    }
-    
-    
-    /// requestGetPostAPICall : method will make the request on the sever and fetch the Post Model response with Json parsing & make table reloading.
-    private func requestGetPostAPICall() {
-        postViewModel.bindPostViewModelToController = { [weak self] in
-            guard let self = self, let posts = self.postViewModel.getPosts(), posts.count > 0 else { return }
+        
+        tblComments.register(cellType: CommentsTableViewCell.self)
+        commentsViewModel = CommentsViewModel()
+        commentsViewModel?.callGetComments(aPostID: postModle?.id ?? 0, callBack: { comments in
+            guard let aComments = comments , aComments.count > 0 else { return }
             DispatchQueue.main.async {
-                self.tblPosts.reloadData()
+                self.tblComments.reloadData()
             }
-        }
+        })
     }
-    
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let commentsVC = segue.destination as? CommentsVC , let aPostModle = sender as? Post {
-            commentsVC.postModle = aPostModle
-        }
-    }
-    
 
 }
+
 // MARK: - UISearchBarDelegate
-extension PostsVC: UISearchBarDelegate {
-    
+extension CommentsVC: UISearchBarDelegate {
     ///UISearchBarDelegate - method for invoking the search and show cancel button to remove.
     /// - Parameter searchBar: object delegate method to invoke when start beggining of editing for search bar & show cancel button to remove search text.
     func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
         self.searchBar.showsCancelButton = true
     }
-    
     
     /// UISearchBarDelegate - method when user start searching and on text change will make filter the API Modle response
     /// - Parameters:
@@ -71,15 +58,14 @@ extension PostsVC: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         
         if(!searchText.isEmpty){
-            postViewModel.filterContentForSearchText(searchText)
+            commentsViewModel?.filterContentForSearchText(searchText)
             isSearching = true
         }else{
             isSearching = false
         }
         
-        tblPosts.reloadData()
+        tblComments.reloadData()
     }
-    
     
     /// method will  handle the clear options and making clear for search bar text to get original recoards & hide keybaord
     /// - Parameter searchBar: searchBar with clear options and hide / show
@@ -90,4 +76,3 @@ extension PostsVC: UISearchBarDelegate {
         searchBar.resignFirstResponder()
     }
 }
-

@@ -48,7 +48,6 @@ class PostViewModel: NSObject {
         })
     }
     
-    
     /// This method will return the list of all the Post model.
     /// - Returns: retun the Post array list.
     public func getPosts() -> Array<Post>? {
@@ -61,12 +60,10 @@ class PostViewModel: NSObject {
     func filterContentForSearchText(_ searchText: String) {
         
         searchPosts = posts?.filter({(aPost: Post) -> Bool in
-            let titleMatch = aPost.title.range(of: searchText, options: NSString.CompareOptions.caseInsensitive)
-            let bodyMatch = aPost.body.range(of: searchText, options: NSString.CompareOptions.caseInsensitive)
+            let titleMatch = aPost.title.range(of: searchText, options: .caseInsensitive)
+            let bodyMatch = aPost.body.range(of: searchText, options: .caseInsensitive)
             return titleMatch != nil || bodyMatch != nil
         })
-        
     }
-    
 }
 

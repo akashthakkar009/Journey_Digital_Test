@@ -10,6 +10,7 @@ import UIKit
 
 // MARK: - TableView Delegate,Datasource
 extension PostsVC: UITableViewDelegate, UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if(isSearching ?? false){
             return postViewModel.searchPosts?.count ?? 0
@@ -41,5 +42,6 @@ extension PostsVC: UITableViewDelegate, UITableViewDataSource {
         }else {
             selectedPost = postViewModel.posts?[indexPath.row]
         }
+        self.performSegue(withIdentifier: Segues.kShowPostDetail, sender: selectedPost)
     }
 }

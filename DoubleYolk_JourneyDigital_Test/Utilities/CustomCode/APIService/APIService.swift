@@ -61,4 +61,26 @@ class APIService {
             }
         }
     }
+    
+    public func apiToGetComments(_ postID : Int, completion: @escaping(NetworkResult) -> ()) {
+        guard let url = URL(string: API.kBaseURL + API.kPosts + "/\(postID)/" + API.kComments) else { return }
+        
+        URLSession.shared.dataTask(with: url) { (data, response ,error) in
+            
+            guard let dataReceive = data else {
+                DispatchQueue.main.async {
+                    completion(NetworkResult.failure(NetworkError.fetchError))
+                }
+                return
+            }
+            do {
+                let comments = try JSONDecoder().decode(Array<Comments>.self, from: dataReceive)
+                completion(NetworkResult.success(comments))
+            } catch( _) {
+                DispatchQueue.main.async {
+                    completion(NetworkResult.failure(NetworkError.networkError))
+                }
+            }
+        }.resume()
+    }
 }

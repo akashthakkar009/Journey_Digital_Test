@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="H5b-Zy-1Ua">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -53,6 +54,7 @@
                     <connections>
                         <outlet property="searchBar" destination="Qav-1X-Ous" id="cRX-zo-rQx"/>
                         <outlet property="tblPosts" destination="iHZ-9e-MRq" id="R3i-st-tPU"/>
+                        <segue destination="2bD-CU-RlX" kind="show" identifier="segueShowPostDetail" id="Y6v-g5-Ma6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ndl-gf-zD3" sceneMemberID="firstResponder"/>
@@ -76,6 +78,57 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xjC-6U-Nzn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="128.57142857142856"/>
+        </scene>
+        <!--CommentsVC-->
+        <scene sceneID="XHZ-ys-Ux2">
+            <objects>
+                <viewController storyboardIdentifier="CommentsVC" title="CommentsVC" id="2bD-CU-RlX" customClass="CommentsVC" customModule="DoubleYolk_JourneyDigital_Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XBz-uj-s6c">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="NpA-vF-fWe">
+                                <rect key="frame" x="0.0" y="88" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="gLD-Lz-Kfv"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="2bD-CU-RlX" id="Avn-Pr-Gzy"/>
+                                </connections>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="cOG-ht-nbT">
+                                <rect key="frame" x="0.0" y="137" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="2bD-CU-RlX" id="Qxd-62-dHv"/>
+                                    <outlet property="delegate" destination="2bD-CU-RlX" id="WeV-hP-its"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GPk-M4-kCX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="cOG-ht-nbT" secondAttribute="trailing" id="0wV-Zn-glS"/>
+                            <constraint firstItem="GPk-M4-kCX" firstAttribute="bottom" secondItem="cOG-ht-nbT" secondAttribute="bottom" id="Bql-yP-r7X"/>
+                            <constraint firstItem="NpA-vF-fWe" firstAttribute="top" secondItem="GPk-M4-kCX" secondAttribute="top" id="Eyz-O4-jQT"/>
+                            <constraint firstItem="NpA-vF-fWe" firstAttribute="leading" secondItem="GPk-M4-kCX" secondAttribute="leading" id="LEC-Lg-xIS"/>
+                            <constraint firstItem="cOG-ht-nbT" firstAttribute="leading" secondItem="GPk-M4-kCX" secondAttribute="leading" id="j9V-9e-WEb"/>
+                            <constraint firstItem="cOG-ht-nbT" firstAttribute="top" secondItem="NpA-vF-fWe" secondAttribute="bottom" constant="5" id="vaF-tr-Map"/>
+                            <constraint firstItem="NpA-vF-fWe" firstAttribute="trailing" secondItem="GPk-M4-kCX" secondAttribute="trailing" id="zRq-Tn-xhd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Comments" id="MkI-ne-vlP"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="searchBar" destination="NpA-vF-fWe" id="z5Y-DP-nHH"/>
+                        <outlet property="tblComments" destination="cOG-ht-nbT" id="Tor-IM-ISl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y7x-YE-ql8" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1550.7246376811595" y="128.57142857142856"/>
         </scene>
     </scenes>
     <resources>
