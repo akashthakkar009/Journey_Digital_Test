@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9A138A0275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A1389F275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestTests.swift */; };
-		A9A138AA275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A138A9275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITests.swift */; };
-		A9A138AC275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A138AB275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITestsLaunchTests.swift */; };
+		A96A7A86275A614700E5BE01 /* DoubleYolk_JourneyDigital_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A1389F275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestTests.swift */; };
+		A96A7A87275A614E00E5BE01 /* DoubleYolk_JourneyDigital_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A138A9275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITests.swift */; };
+		A96A7A88275A615000E5BE01 /* DoubleYolk_JourneyDigital_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A138AB275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITestsLaunchTests.swift */; };
 		A9A138CA275A4DE100BF6170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A138BB275A4DE100BF6170 /* AppDelegate.swift */; };
 		A9A138CB275A4DE100BF6170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A138BE275A4DE100BF6170 /* Assets.xcassets */; };
 		A9D9AD35275A50A1008040F3 /* PostsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D9AD34275A50A1008040F3 /* PostsVC.swift */; };
@@ -476,7 +476,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A138A0275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestTests.swift in Sources */,
+				A96A7A86275A614700E5BE01 /* DoubleYolk_JourneyDigital_TestTests.swift in Sources */,
+				A96A7A87275A614E00E5BE01 /* DoubleYolk_JourneyDigital_TestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,8 +485,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A138AC275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITestsLaunchTests.swift in Sources */,
-				A9A138AA275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITests.swift in Sources */,
+				A96A7A88275A615000E5BE01 /* DoubleYolk_JourneyDigital_TestUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,7 +575,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -630,7 +630,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -657,7 +657,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -668,6 +668,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
 			};
 			name = Debug;
 		};
@@ -688,7 +689,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -699,6 +700,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
 			};
 			name = Release;
 		};
@@ -710,7 +712,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -723,6 +725,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubleYolk_JourneyDigital_Test.app/DoubleYolk_JourneyDigital_Test";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
 			};
 			name = Debug;
 		};
@@ -734,7 +737,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -747,6 +750,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubleYolk_JourneyDigital_Test.app/DoubleYolk_JourneyDigital_Test";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
 			};
 			name = Release;
 		};
@@ -769,6 +773,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = DoubleYolk_JourneyDigital_Test;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
 			};
 			name = Debug;
 		};
@@ -791,6 +796,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = DoubleYolk_JourneyDigital_Test;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
 			};
 			name = Release;
 		};
