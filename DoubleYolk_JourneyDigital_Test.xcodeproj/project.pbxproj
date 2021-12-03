@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9A138A0275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A1389F275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestTests.swift */; };
+		A9A138AA275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A138A9275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITests.swift */; };
+		A9A138AC275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A138AB275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITestsLaunchTests.swift */; };
+		A9A138CA275A4DE100BF6170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A138BB275A4DE100BF6170 /* AppDelegate.swift */; };
+		A9A138CB275A4DE100BF6170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A138BE275A4DE100BF6170 /* Assets.xcassets */; };
+		A9A138CD275A4DE100BF6170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A138C2275A4DE100BF6170 /* LaunchScreen.storyboard */; };
+		A9A138CE275A4DE100BF6170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A138C4275A4DE100BF6170 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9A1389C275A4CE400BF6170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9A1387D275A4CE200BF6170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9A13884275A4CE200BF6170;
+			remoteInfo = DoubleYolk_JourneyDigital_Test;
+		};
+		A9A138A6275A4CE400BF6170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9A1387D275A4CE200BF6170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9A13884275A4CE200BF6170;
+			remoteInfo = DoubleYolk_JourneyDigital_Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9A13885275A4CE200BF6170 /* DoubleYolk_JourneyDigital_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleYolk_JourneyDigital_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A1389B275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleYolk_JourneyDigital_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A1389F275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleYolk_JourneyDigital_TestTests.swift; sourceTree = "<group>"; };
+		A9A138A5275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleYolk_JourneyDigital_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A138A9275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleYolk_JourneyDigital_TestUITests.swift; sourceTree = "<group>"; };
+		A9A138AB275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleYolk_JourneyDigital_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A9A138BB275A4DE100BF6170 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9A138BE275A4DE100BF6170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9A138C0275A4DE100BF6170 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A138C3275A4DE100BF6170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9A138C5275A4DE100BF6170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9A13882275A4CE200BF6170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A13898275A4CE400BF6170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A138A2275A4CE400BF6170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9A1387C275A4CE200BF6170 = {
+			isa = PBXGroup;
+			children = (
+				A9A13887275A4CE200BF6170 /* DoubleYolk_JourneyDigital_Test */,
+				A9A1389E275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestTests */,
+				A9A138A8275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITests */,
+				A9A13886275A4CE200BF6170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9A13886275A4CE200BF6170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9A13885275A4CE200BF6170 /* DoubleYolk_JourneyDigital_Test.app */,
+				A9A1389B275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestTests.xctest */,
+				A9A138A5275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9A13887275A4CE200BF6170 /* DoubleYolk_JourneyDigital_Test */ = {
+			isa = PBXGroup;
+			children = (
+				A9A138BA275A4DE100BF6170 /* AppDelegate */,
+				A9A138C1275A4DE100BF6170 /* Base.lproj */,
+				A9A138B9275A4DE100BF6170 /* Controllers */,
+				A9A138C6275A4DE100BF6170 /* Model */,
+				A9A138BD275A4DE100BF6170 /* Resources */,
+				A9A138B8275A4DE100BF6170 /* Utilities */,
+				A9A138C7275A4DE100BF6170 /* View */,
+				A9A138BC275A4DE100BF6170 /* ViewModel */,
+			);
+			path = DoubleYolk_JourneyDigital_Test;
+			sourceTree = "<group>";
+		};
+		A9A1389E275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9A1389F275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestTests.swift */,
+			);
+			path = DoubleYolk_JourneyDigital_TestTests;
+			sourceTree = "<group>";
+		};
+		A9A138A8275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9A138A9275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITests.swift */,
+				A9A138AB275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITestsLaunchTests.swift */,
+			);
+			path = DoubleYolk_JourneyDigital_TestUITests;
+			sourceTree = "<group>";
+		};
+		A9A138B8275A4DE100BF6170 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A9A138B9275A4DE100BF6170 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A9A138BA275A4DE100BF6170 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A9A138BB275A4DE100BF6170 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A9A138BC275A4DE100BF6170 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A9A138BD275A4DE100BF6170 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9A138BE275A4DE100BF6170 /* Assets.xcassets */,
+				A9A138BF275A4DE100BF6170 /* PropertyList */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A9A138BF275A4DE100BF6170 /* PropertyList */ = {
+			isa = PBXGroup;
+			children = (
+				A9A138C0275A4DE100BF6170 /* Info.plist */,
+			);
+			path = PropertyList;
+			sourceTree = "<group>";
+		};
+		A9A138C1275A4DE100BF6170 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				A9A138C2275A4DE100BF6170 /* LaunchScreen.storyboard */,
+				A9A138C4275A4DE100BF6170 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		A9A138C6275A4DE100BF6170 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A9A138C7275A4DE100BF6170 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9A138C8275A4DE100BF6170 /* Xibs */,
+				A9A138C9275A4DE100BF6170 /* Storyboards */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A9A138C8275A4DE100BF6170 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		A9A138C9275A4DE100BF6170 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9A13884275A4CE200BF6170 /* DoubleYolk_JourneyDigital_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9A138AF275A4CE400BF6170 /* Build configuration list for PBXNativeTarget "DoubleYolk_JourneyDigital_Test" */;
+			buildPhases = (
+				A9A13881275A4CE200BF6170 /* Sources */,
+				A9A13882275A4CE200BF6170 /* Frameworks */,
+				A9A13883275A4CE200BF6170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubleYolk_JourneyDigital_Test;
+			productName = DoubleYolk_JourneyDigital_Test;
+			productReference = A9A13885275A4CE200BF6170 /* DoubleYolk_JourneyDigital_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9A1389A275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9A138B2275A4CE400BF6170 /* Build configuration list for PBXNativeTarget "DoubleYolk_JourneyDigital_TestTests" */;
+			buildPhases = (
+				A9A13897275A4CE400BF6170 /* Sources */,
+				A9A13898275A4CE400BF6170 /* Frameworks */,
+				A9A13899275A4CE400BF6170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9A1389D275A4CE400BF6170 /* PBXTargetDependency */,
+			);
+			name = DoubleYolk_JourneyDigital_TestTests;
+			productName = DoubleYolk_JourneyDigital_TestTests;
+			productReference = A9A1389B275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9A138A4275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9A138B5275A4CE400BF6170 /* Build configuration list for PBXNativeTarget "DoubleYolk_JourneyDigital_TestUITests" */;
+			buildPhases = (
+				A9A138A1275A4CE400BF6170 /* Sources */,
+				A9A138A2275A4CE400BF6170 /* Frameworks */,
+				A9A138A3275A4CE400BF6170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9A138A7275A4CE400BF6170 /* PBXTargetDependency */,
+			);
+			name = DoubleYolk_JourneyDigital_TestUITests;
+			productName = DoubleYolk_JourneyDigital_TestUITests;
+			productReference = A9A138A5275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9A1387D275A4CE200BF6170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A9A13884275A4CE200BF6170 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					A9A1389A275A4CE400BF6170 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A9A13884275A4CE200BF6170;
+					};
+					A9A138A4275A4CE400BF6170 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A9A13884275A4CE200BF6170;
+					};
+				};
+			};
+			buildConfigurationList = A9A13880275A4CE200BF6170 /* Build configuration list for PBXProject "DoubleYolk_JourneyDigital_Test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9A1387C275A4CE200BF6170;
+			productRefGroup = A9A13886275A4CE200BF6170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9A13884275A4CE200BF6170 /* DoubleYolk_JourneyDigital_Test */,
+				A9A1389A275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestTests */,
+				A9A138A4275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9A13883275A4CE200BF6170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A138CD275A4DE100BF6170 /* LaunchScreen.storyboard in Resources */,
+				A9A138CB275A4DE100BF6170 /* Assets.xcassets in Resources */,
+				A9A138CE275A4DE100BF6170 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A13899275A4CE400BF6170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A138A3275A4CE400BF6170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9A13881275A4CE200BF6170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A138CA275A4DE100BF6170 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A13897275A4CE400BF6170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A138A0275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A138A1275A4CE400BF6170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A138AC275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITestsLaunchTests.swift in Sources */,
+				A9A138AA275A4CE400BF6170 /* DoubleYolk_JourneyDigital_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9A1389D275A4CE400BF6170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9A13884275A4CE200BF6170 /* DoubleYolk_JourneyDigital_Test */;
+			targetProxy = A9A1389C275A4CE400BF6170 /* PBXContainerItemProxy */;
+		};
+		A9A138A7275A4CE400BF6170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9A13884275A4CE200BF6170 /* DoubleYolk_JourneyDigital_Test */;
+			targetProxy = A9A138A6275A4CE400BF6170 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9A138C2275A4DE100BF6170 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9A138C3275A4DE100BF6170 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A9A138C4275A4DE100BF6170 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9A138C5275A4DE100BF6170 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9A138AD275A4CE400BF6170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9A138AE275A4CE400BF6170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9A138B0275A4CE400BF6170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/indianic/Documents/DoubleYolk_JourneyDigital_Test/DoubleYolk_JourneyDigital_Test/Resources/PropertyList/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DoubleYolk-JourneyDigital-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9A138B1275A4CE400BF6170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/indianic/Documents/DoubleYolk_JourneyDigital_Test/DoubleYolk_JourneyDigital_Test/Resources/PropertyList/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DoubleYolk-JourneyDigital-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9A138B3275A4CE400BF6170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DoubleYolk-JourneyDigital-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubleYolk_JourneyDigital_Test.app/DoubleYolk_JourneyDigital_Test";
+			};
+			name = Debug;
+		};
+		A9A138B4275A4CE400BF6170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DoubleYolk-JourneyDigital-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubleYolk_JourneyDigital_Test.app/DoubleYolk_JourneyDigital_Test";
+			};
+			name = Release;
+		};
+		A9A138B6275A4CE400BF6170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DoubleYolk-JourneyDigital-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoubleYolk_JourneyDigital_Test;
+			};
+			name = Debug;
+		};
+		A9A138B7275A4CE400BF6170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DoubleYolk-JourneyDigital-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoubleYolk_JourneyDigital_Test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9A13880275A4CE200BF6170 /* Build configuration list for PBXProject "DoubleYolk_JourneyDigital_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A138AD275A4CE400BF6170 /* Debug */,
+				A9A138AE275A4CE400BF6170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9A138AF275A4CE400BF6170 /* Build configuration list for PBXNativeTarget "DoubleYolk_JourneyDigital_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A138B0275A4CE400BF6170 /* Debug */,
+				A9A138B1275A4CE400BF6170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9A138B2275A4CE400BF6170 /* Build configuration list for PBXNativeTarget "DoubleYolk_JourneyDigital_TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A138B3275A4CE400BF6170 /* Debug */,
+				A9A138B4275A4CE400BF6170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9A138B5275A4CE400BF6170 /* Build configuration list for PBXNativeTarget "DoubleYolk_JourneyDigital_TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A138B6275A4CE400BF6170 /* Debug */,
+				A9A138B7275A4CE400BF6170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9A1387D275A4CE200BF6170 /* Project object */;
+}
